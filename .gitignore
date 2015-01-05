@@ -137,7 +137,7 @@ publish/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
+# If using the old MSBuild-Integrated Package Restore, uncomment this:
 #!**/packages/repositories.config
 
 # Windows Azure Build Output
@@ -148,6 +148,7 @@ csx/
 AppPackages/
 
 # Others
+sql/
 *.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
